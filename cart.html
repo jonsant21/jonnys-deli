@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Jonny's Deli</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div id="logo">Jonny's Deli</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main-content">
+        <h1>Shopping Cart</h1>
+        <table id="cart-table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cart items will be dynamically inserted here -->
+            </tbody>
+        </table>
+        <div id="cart-total">
+            <p>Total: <span>$0.00</span></p>
+        </div>
+        <button id="checkout-button">Checkout</button>
+    </div>
+
+    <footer>
+        <p>123 Main St, Cityville, State, 12345 | 555-123-4567</p>
+        <p>Opening Hours: Mon-Fri 9am - 9pm, Sat-Sun 10am - 10pm</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+
+</body>
+</html>

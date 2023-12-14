@@ -1,0 +1,131 @@
+/* Reset some default styling */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333; /* Updated text color to a softer black */
+    background: #fafafa; /* Lighter background color */
+}
+
+header {
+    background-color: #ffcc00; /* Bright yellow header */
+    color: #333; /* Darker text for contrast */
+    padding: 10px 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333; /* Darker text for contrast */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#main-content {
+    text-align: center;
+    padding: 20px;
+    background: #fff; /* White background for content area */
+    border: 1px solid #e0e0e0; /* Lighter border color */
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Added shadow for a pop effect */
+}
+
+#main-content h1, #main-content h2 {
+    color: #ff6347; /* Tomato color for headings */
+}
+
+footer {
+    background-color: #ffcc00; /* Same bright yellow as header for the footer */
+    color: #333; /* Darker text for contrast */
+    text-align: center;
+    padding: 10px 20px;
+    width: 100%;
+    clear: both;
+}
+
+nav ul li a:hover, nav ul li a:active {
+    color: #ff6347; /* Tomato hover color for interactive effect */
+    border-bottom: 2px solid #ff6347;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+label, input[type="text"], input[type="email"], input[type="submit"] {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+
+input[type="text"], input[type="email"] {
+    width: calc(100% - 22px);
+    border: 1px solid #ccc; /* Lighter border color for input fields */
+}
+
+input[type="submit"] {
+    background: #ff6347; /* Tomato color for the submit button */
+    color: white;
+    cursor: pointer;
+    border: none; /* Remove default border */
+    display: block; /* Added to make the button a block element */
+    margin-left: auto; /* Added to center-align the button */
+    margin-right: auto; /* Added to center-align the button */
+}
+
+input[type="submit"]:hover {
+    background: #ff4500; /* Darker tomato color on hover */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.deli-image {
+    width: 50%;
+    height: auto;
+    margin: auto; /* Center the image */
+    display: block;
+}
+
+/* Updated styles for the 'View Our Menu' button */
+#main-content a.menu-button {
+    display: inline-block;
+    margin-top: 20px; 
+    padding: 10px 20px;
+    color: white;
+    background-color: #ff6347; 
+    text-decoration: none; 
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    text-align: center;  /* Ensures the button text is centered */
+}
+
+#main-content a.menu-button:hover {
+    background-color: #ff4500; 
+}
+
+/* Optional: Center the text and image in the #hero section */
+#hero {
+    text-align: center;
+}
